@@ -13,16 +13,15 @@
 <h2 class="text-center">Intro to React $50</h2>
 <form action="./charge.php" method="post" id="payment-form">
   <div class="form-row">
-  <input name="first_name" type="text" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="First Name">
-  <input name="last_name" type="text" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Last Name">
-  <input name="email" type="text" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Email Address">
+  <input name="first_name" type="text" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="First Name" required>
+  <input name="last_name" type="text" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Last Name" required>
+  <input name="email" type="text" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Email Address" required>
     <label for="card-element">
     </label>
     <div id="card-element" class="form-control">
     </div>
     <div id="card-errors" role="alert"></div>
   </div>
-
   <button class="btn btn-primary btn-block mt-4">Submit Payment</button>
 </form>
 </div>
