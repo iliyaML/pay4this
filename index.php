@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pay4This</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="./css/style.css" rel="stylesheet">
 </head>
@@ -12,7 +13,6 @@
 <div class="container my-4">
 <h2 class="text-center">Intro to React $25</h2>
 <div class="row">
-
 <div class="col-sm-3">
   <svg width="400" height="300">
   <rect width="250" height="300" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
@@ -21,7 +21,6 @@
   Sorry, your browser does not support inline SVG.  
 </svg>
 </div>
-
 <div class="col-sm-9 text-center">
 <form action="./charge.php" method="post" id="payment-form">
   <div class="form-row">
