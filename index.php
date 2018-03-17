@@ -22,7 +22,7 @@
 </svg>
 </div>
 
-<div class="col-sm-9">
+<div class="col-sm-9 text-center">
 <form action="./charge.php" method="post" id="payment-form">
   <div class="form-row">
   <input name="first_name" type="text" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="First Name" required>
@@ -34,6 +34,7 @@
     </div>
     <div id="card-errors" role="alert"></div>
   </div>
+  Enter 4242 4242 4242 4242 which is a dummy credit card number to test it out
   <button class="btn btn-primary btn-block mt-4">Submit Payment</button>
 </form>
 </div>
